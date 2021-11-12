@@ -4,7 +4,9 @@ This tool helps you build photomosaics from a source image and a catalog of imag
 
 It doesn't just find the color average for each pixel and each image to match, but does a pixel by pixel color comparison for images of a given size. In this example I used images cropped 30x30, so it would compare all 900 pixels to a 30x30 section of the cropped and resized source image. You can see this in the datails of the eyebrows and mouth.
 
-![photomosaic](example/10x10_angryface.png)
+This tool also does no color correction on the images.
+
+<img src="example/20x20_angryface.png" height="300"/>
 <img src="example/angryface.png" height="300"/>
 
 The images were sourced from a set of 1600 nature photos from Pexels.com. An included tool will let you collect images from pexels on your own.
