@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Specific to photomosaic
+.DS_STORE
+pexels_api_key
+*npy
+*json
+example/*py
